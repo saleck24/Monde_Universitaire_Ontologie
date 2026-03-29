@@ -1,0 +1,143 @@
+@prefix : <http://www.semanticweb.org/ontologies/universite#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/ontologies/universite> .
+
+<http://www.semanticweb.org/ontologies/universite> rdf:type owl:Ontology .
+
+#################################################################
+#    Classes
+#################################################################
+
+:EntiteUniversitaire rdf:type owl:Class .
+
+:Personne rdf:type owl:Class ;
+          rdfs:subClassOf :EntiteUniversitaire .
+
+:Etudiant rdf:type owl:Class ;
+          rdfs:subClassOf :Personne .
+
+:Professeur rdf:type owl:Class ;
+            rdfs:subClassOf :Personne .
+
+:Organisation rdf:type owl:Class ;
+               rdfs:subClassOf :EntiteUniversitaire .
+
+:Universite rdf:type owl:Class ;
+            rdfs:subClassOf :Organisation .
+
+:Faculte rdf:type owl:Class ;
+         rdfs:subClassOf :Organisation .
+
+:Departement rdf:type owl:Class ;
+              rdfs:subClassOf :Organisation .
+
+:Activite rdf:type owl:Class ;
+          rdfs:subClassOf :EntiteUniversitaire .
+
+:Cours rdf:type owl:Class ;
+       rdfs:subClassOf :Activite .
+
+:Infrastructure rdf:type owl:Class ;
+                 rdfs:subClassOf :EntiteUniversitaire .
+
+:Salle rdf:type owl:Class ;
+       rdfs:subClassOf :Infrastructure .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+:estInscritA rdf:type owl:ObjectProperty ;
+             rdfs:domain :Etudiant ;
+             rdfs:range :Universite .
+
+:faitPartieDe rdf:type owl:ObjectProperty ;
+              rdfs:domain :Organisation ;
+              rdfs:range :Organisation .
+
+:suitUnCours rdf:type owl:ObjectProperty ;
+             rdfs:domain :Etudiant ;
+             rdfs:range :Cours .
+
+:enseigneUnCours rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Professeur ;
+                 rdfs:range :Cours .
+
+:appartientADepartement rdf:type owl:ObjectProperty ;
+                        rdfs:domain :Cours ;
+                        rdfs:range :Departement .
+
+:estLocaliseDans rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Cours ;
+                 rdfs:range :Salle .
+
+#################################################################
+#    Data Properties
+#################################################################
+
+:nom rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Personne ;
+     rdfs:range xsd:string .
+
+:prenom rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Personne ;
+        rdfs:range xsd:string .
+
+:numEtudiant rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Etudiant ;
+             rdfs:range xsd:string .
+
+:intituleCours rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Cours ;
+               rdfs:range xsd:string .
+
+:dureeCours rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Cours ;
+            rdfs:range xsd:int .
+
+#################################################################
+#    Individuals
+#################################################################
+
+:Univ_Nouakchott rdf:type owl:NamedIndividual , :Universite ;
+                 :nom "Université de Nouakchott Al Aasriya" .
+
+:FST_Nouakchott rdf:type owl:NamedIndividual , :Faculte ;
+                :nom "Faculté des Sciences et Techniques" ;
+                :faitPartieDe :Univ_Nouakchott .
+
+:Math_Info rdf:type owl:NamedIndividual , :Departement ;
+           :nom "Département de Mathématiques et Informatique" ;
+           :faitPartieDe :FST_Nouakchott .
+
+:Saleck_BAYA rdf:type owl:NamedIndividual , :Etudiant ;
+             :nom "BAYA" ;
+             :prenom "Saleck" ;
+             :numEtudiant "25362" ;
+             :estInscritA :Univ_Nouakchott ;
+             :suitUnCours :Web_Semantique .
+
+:Moussa_EREBIH rdf:type owl:NamedIndividual , :Etudiant ;
+               :nom "EREBIH" ;
+               :prenom "Moussa" ;
+               :numEtudiant "C21397" ;
+               :estInscritA :Univ_Nouakchott ;
+               :suitUnCours :Web_Semantique .
+
+:Prof_Diakite rdf:type owl:NamedIndividual , :Professeur ;
+              :nom "DIAKITE" ;
+              :prenom "Monsieur" ;
+              :enseigneUnCours :Web_Semantique .
+
+:Amphi_7 rdf:type owl:NamedIndividual , :Salle ;
+         :nom "Amphi 7" .
+
+:Web_Semantique rdf:type owl:NamedIndividual , :Cours ;
+                :intituleCours "Web Sémantique" ;
+                :appartientADepartement :Math_Info ;
+                :estLocaliseDans :Amphi_7 ;
+                :dureeCours 30 .

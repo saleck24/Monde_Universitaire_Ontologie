@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/universite#"
+     xml:base="http://www.semanticweb.org/ontologies/universite"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ontologies/universite"/>
+
+    <!-- Classes -->
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/universite#EntiteUniversitaire"/>
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/universite#Personne">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/universite#EntiteUniversitaire"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/universite#Etudiant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/universite#Personne"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/universite#Professeur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/universite#Personne"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/universite#Organisation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/universite#EntiteUniversitaire"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/universite#Universite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/universite#Organisation"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/universite#Faculte">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/universite#Organisation"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/universite#Departement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/universite#Organisation"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/universite#Activite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/universite#EntiteUniversitaire"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/universite#Cours">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/universite#Activite"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/universite#Infrastructure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/universite#EntiteUniversitaire"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ontologies/universite#Salle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ontologies/universite#Infrastructure"/>
+    </owl:Class>
+
+    <!-- Propriétés d'objet -->
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/universite#estInscritA">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/universite#Etudiant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/universite#Universite"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/universite#faitPartieDe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/universite#Organisation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/universite#Organisation"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/universite#suitUnCours">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/universite#Etudiant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/universite#Cours"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/universite#enseigneUnCours">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/universite#Professeur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/universite#Cours"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/universite#appartientADepartement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/universite#Cours"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/universite#Departement"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ontologies/universite#estLocaliseDans">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/universite#Cours"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/universite#Salle"/>
+    </owl:ObjectProperty>
+
+    <!-- Propriétés de données -->
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/universite#nom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/universite#Personne"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/universite#prenom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/universite#Personne"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/universite#numEtudiant">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/universite#Etudiant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/universite#intituleCours">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/universite#Cours"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ontologies/universite#dureeCours">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/universite#Cours"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+
+    <!-- Individus -->
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/universite#Univ_Nouakchott">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/universite#Universite"/>
+        <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Université de Nouakchott Al Aasriya</nom>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/universite#FST_Nouakchott">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/universite#Faculte"/>
+        <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Faculté des Sciences et Techniques</nom>
+        <faitPartieDe rdf:resource="http://www.semanticweb.org/ontologies/universite#Univ_Nouakchott"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/universite#Math_Info">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/universite#Departement"/>
+        <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Département de Mathématiques et Informatique</nom>
+        <faitPartieDe rdf:resource="http://www.semanticweb.org/ontologies/universite#FST_Nouakchott"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/universite#Saleck_BAYA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/universite#Etudiant"/>
+        <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAYA</nom>
+        <prenom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saleck</prenom>
+        <numEtudiant rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25362</numEtudiant>
+        <estInscritA rdf:resource="http://www.semanticweb.org/ontologies/universite#Univ_Nouakchott"/>
+        <suitUnCours rdf:resource="http://www.semanticweb.org/ontologies/universite#Web_Semantique"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/universite#Moussa_EREBIH">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/universite#Etudiant"/>
+        <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EREBIH</nom>
+        <prenom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moussa</prenom>
+        <numEtudiant rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C21397</numEtudiant>
+        <estInscritA rdf:resource="http://www.semanticweb.org/ontologies/universite#Univ_Nouakchott"/>
+        <suitUnCours rdf:resource="http://www.semanticweb.org/ontologies/universite#Web_Semantique"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/universite#Prof_Diakite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/universite#Professeur"/>
+        <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIAKITE</nom>
+        <prenom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monsieur</prenom>
+        <enseigneUnCours rdf:resource="http://www.semanticweb.org/ontologies/universite#Web_Semantique"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/universite#Amphi_7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/universite#Salle"/>
+        <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amphi 7</nom>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/universite#Web_Semantique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/universite#Cours"/>
+        <intituleCours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Web Sémantique</intituleCours>
+        <appartientADepartement rdf:resource="http://www.semanticweb.org/ontologies/universite#Math_Info"/>
+        <estLocaliseDans rdf:resource="http://www.semanticweb.org/ontologies/universite#Amphi_7"/>
+        <dureeCours rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</dureeCours>
+    </owl:NamedIndividual>
+</rdf:RDF>

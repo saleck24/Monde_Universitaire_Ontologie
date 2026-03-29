@@ -1,0 +1,10 @@
+# Ignorer les logiciels externes volumineux
+IsaViz/
+
+# Ignorer les fichiers temporaires et de configuration locale
+.gemini/
+*.tmp
+*.log
+
+# Ignorer les fichiers de script de lancement (facultatif, mais conseillé s'ils sont spécifiques à la machine)
+# lance_isaviz.bat
