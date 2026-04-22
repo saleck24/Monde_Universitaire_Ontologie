@@ -117,7 +117,7 @@
 :Saleck_BAYA rdf:type owl:NamedIndividual , :Etudiant ;
              :nom "BAYA" ;
              :prenom "Saleck" ;
-             :numEtudiant "25362" ;
+             :numEtudiant "C25362" ;
              :estInscritA :Univ_Nouakchott ;
              :suitUnCours :Web_Semantique .
 
@@ -130,7 +130,7 @@
 
 :Prof_Diakite rdf:type owl:NamedIndividual , :Professeur ;
               :nom "DIAKITE" ;
-              :prenom "Monsieur" ;
+              :prenom "Mohamed" ;
               :enseigneUnCours :Web_Semantique .
 
 :Amphi_7 rdf:type owl:NamedIndividual , :Salle ;

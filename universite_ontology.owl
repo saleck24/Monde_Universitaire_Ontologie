@@ -2,7 +2,7 @@
 <rdf:RDF xmlns="http://www.semanticweb.org/ontologies/universite#"
      xml:base="http://www.semanticweb.org/ontologies/universite"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
@@ -134,7 +134,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/universite#Etudiant"/>
         <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BAYA</nom>
         <prenom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saleck</prenom>
-        <numEtudiant rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25362</numEtudiant>
+        <numEtudiant rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C25362</numEtudiant>
         <estInscritA rdf:resource="http://www.semanticweb.org/ontologies/universite#Univ_Nouakchott"/>
         <suitUnCours rdf:resource="http://www.semanticweb.org/ontologies/universite#Web_Semantique"/>
     </owl:NamedIndividual>
@@ -151,7 +151,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ontologies/universite#Prof_Diakite">
         <rdf:type rdf:resource="http://www.semanticweb.org/ontologies/universite#Professeur"/>
         <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIAKITE</nom>
-        <prenom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monsieur</prenom>
+        <prenom rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mohamed</prenom>
         <enseigneUnCours rdf:resource="http://www.semanticweb.org/ontologies/universite#Web_Semantique"/>
     </owl:NamedIndividual>
 

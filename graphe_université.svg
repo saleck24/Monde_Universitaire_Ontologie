@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="600" viewBox="0 0 7176 4652" width="800"
+    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g style="font-family:Dialog,serif;font-style:normal;font-weight:normal;font-size:10">
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Univ_Nouakchott">
+            <ellipse cx="4618" cy="1855" rx="190" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Univ_Nouakchott">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="4460" y="1858">http://www.semanticweb.org/ontologies/universite#Univ_Nouakchott</text>
+        </a>
+        <a xlink:href="http://www.w3.org/2002/07/owl#NamedIndividual">
+            <ellipse cx="5297" cy="1964" rx="60" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.w3.org/2002/07/owl#NamedIndividual">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="5247" y="1967">owl:NamedIndividual</text>
+        </a>
+        <path
+            d="M4807 1855C4899 1858 5003 1867 5095 1887 5150 1899 5209 1924 5263 1950" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5268,1952 5259,1952 5262,1945" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4957" y="1854">rdf:type</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Universite">
+            <ellipse cx="5297" cy="2374" rx="170" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Universite">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="5156" y="2377">http://www.semanticweb.org/ontologies/universite#Universite</text>
+        </a>
+        <path
+            d="M4742 1869C4779 1879 4810 1894 4831 1920 4858 1953 4824 2076 4849 2109 4921 2201 5023 2107 5095 2198 5137 2251 5067 2300 5113 2347 5118 2352 5124 2357 5161 2364" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5166,2365 5157,2367 5159,2360" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4957" y="2106">rdf:type</text>
+        <rect height="36"
+            style="fill:rgb(255,223,123);stroke:rgb(132,117,66)"
+            width="200" x="5197" y="1518"/>
+        <text style="fill:rgb(132,117,66)" text-anchor="start" x="5214" y="1539">Université de Nouakchott Al Aasriya</text>
+        <path
+            d="M4626 1838C4652 1785 4732 1635 4849 1573 4959 1516 5105 1515 5196 1523" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5201,1523 5193,1527 5193,1519" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4849" y="1517">http://www.semanticweb.org/ontologies/universite#nom</text>
+        <a xlink:href="http://www.w3.org/2002/07/owl#Class">
+            <ellipse cx="7149" cy="2580" rx="27" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.w3.org/2002/07/owl#Class">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="7128" y="2583">owl:Class</text>
+        </a>
+        <path
+            d="M5435 2385C5525 2391 5632 2399 5727 2407 6193 2447 6310 2458 6775 2507 6883 2519 6911 2511 7017 2535 7043 2541 7071 2551 7126 2572" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="7131,2574 7122,2575 7125,2567" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="6233" y="2440">rdf:type</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Organisation">
+            <ellipse cx="5930" cy="2551" rx="178" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Organisation">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="5782" y="2554">http://www.semanticweb.org/ontologies/universite#Organisation</text>
+        </a>
+        <path
+            d="M5445 2383C5461 2388 5471 2394 5480 2401 5499 2418 5479 2439 5498 2456 5575 2526 5626 2482 5727 2504 5767 2513 5811 2523 5859 2535" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5864,2536 5855,2538 5857,2530" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="5581" y="2453">rdfs:subClassOf</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Activite">
+            <ellipse cx="5930" cy="2705" rx="164" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Activite">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="5794" y="2708">http://www.semanticweb.org/ontologies/universite#Activite</text>
+        </a>
+        <path
+            d="M6091 2708C6268 2709 6540 2708 6775 2690 6883 2682 6914 2694 7017 2658 7053 2646 7090 2623 7132 2594" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="7136,2591 7132,2599 7127,2592" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="6562" y="2687">rdf:type</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#EntiteUniversitaire">
+            <ellipse cx="6578" cy="2650" rx="194" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#EntiteUniversitaire">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="6417" y="2653">http://www.semanticweb.org/ontologies/universite#EntiteUniversitaire</text>
+        </a>
+        <path
+            d="M6077 2698C6162 2691 6269 2684 6363 2675 6390 2673 6419 2669 6461 2665" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="6466,2664 6458,2669 6458,2661" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="6217" y="2672">rdfs:subClassOf</text>
+        <path
+            d="M6764 2655C6846 2654 6936 2648 7017 2631 7046 2625 7077 2613 7127 2591" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="7132,2589 7126,2596 7123,2589" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="6889" y="2628">rdf:type</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Salle">
+            <ellipse cx="5297" cy="2196" rx="157" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Salle">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="5166" y="2199">http://www.semanticweb.org/ontologies/universite#Salle</text>
+        </a>
+        <path
+            d="M5453 2195C5729 2192 6298 2196 6775 2251 6884 2264 6930 2231 7017 2298 7099 2363 7132 2492 7144 2562" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="7145,2567 7140,2560 7147,2558" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="6233" y="2202">rdf:type</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Infrastructure">
+            <ellipse cx="5930" cy="2291" rx="179" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Infrastructure">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="5781" y="2294">http://www.semanticweb.org/ontologies/universite#Infrastructure</text>
+        </a>
+        <path
+            d="M5363 2213C5404 2222 5454 2233 5498 2240 5592 2256 5700 2269 5796 2280" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5801,2281 5793,2284 5793,2276" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="5581" y="2237">rdfs:subClassOf</text>
+        <path
+            d="M6079 2282C6341 2265 6865 2246 7017 2341 7093 2389 7128 2498 7143 2562" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="7144,2567 7138,2560 7146,2558" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="6562" y="2264">rdf:type</text>
+        <path
+            d="M6036 2306C6070 2310 6103 2315 6134 2318 6184 2324 6327 2305 6363 2341 6399 2378 6350 2533 6381 2574 6402 2602 6434 2620 6486 2635" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="6491,2636 6482,2638 6484,2630" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="6217" y="2315">rdfs:subClassOf</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Prof_Diakite">
+            <ellipse cx="1735" cy="2886" rx="176" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Prof_Diakite">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="1588" y="2889">http://www.semanticweb.org/ontologies/universite#Prof_Diakite</text>
+        </a>
+        <path
+            d="M1832 2871C2118 2822 2997 2660 3689 2405 3885 2333 3907 2248 4109 2194 4264 2153 4671 2162 4831 2153 4949 2147 4986 2183 5095 2138 5173 2107 5242 2032 5282 1982" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5285,1978 5283,1987 5277,1982" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="3525" y="2402">rdf:type</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Professeur">
+            <ellipse cx="5297" cy="3019" rx="171" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Professeur">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="5155" y="3022">http://www.semanticweb.org/ontologies/universite#Professeur</text>
+        </a>
+        <path
+            d="M1783 2903C1902 2944 2201 3036 2459 3036 2459 3036 2459 3036 4619 3036 4789 3036 4983 3031 5137 3026" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5142,3026 5134,3030 5134,3022" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="3525" y="3033">rdf:type</text>
+        <rect height="36"
+            style="fill:rgb(255,223,123);stroke:rgb(132,117,66)"
+            width="54" x="2433" y="2868"/>
+        <text style="fill:rgb(132,117,66)" text-anchor="start" x="2440" y="2889">DIAKITE</text>
+        <path d="M1910 2886C2086 2886 2329 2886 2433 2886" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="2438,2886 2430,2890 2430,2882" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="1973" y="2883">http://www.semanticweb.org/ontologies/universite#nom</text>
+        <rect height="36"
+            style="fill:rgb(255,223,123);stroke:rgb(132,117,66)"
+            width="58" x="2431" y="2922"/>
+        <text style="fill:rgb(132,117,66)" text-anchor="start" x="2436" y="2943">Mohamed</text>
+        <path
+            d="M1870 2898C1900 2900 1923 2901 1945 2903 2122 2917 2333 2931 2431 2939" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="2436,2939 2428,2943 2428,2935" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="1966" y="2900">http://www.semanticweb.org/ontologies/universite#prenom</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Web_Semantique">
+            <ellipse cx="2460" cy="2065" rx="193" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Web_Semantique">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="2299" y="2068">http://www.semanticweb.org/ontologies/universite#Web_Semantique</text>
+        </a>
+        <path
+            d="M1741 2869C1771 2754 1930 2153 1945 2140 1971 2119 2214 2121 2247 2116 2294 2109 2346 2096 2400 2083" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="2405,2082 2398,2088 2396,2080" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="1945" y="2113">http://www.semanticweb.org/ontologies/universite#enseigneUnCours</text>
+        <path
+            d="M5432 3009C5449 3004 5465 2999 5480 2992 5489 2988 5488 2982 5498 2977 5758 2850 5849 2889 6134 2838 6524 2769 6664 2899 7017 2718 7067 2693 7108 2640 7138 2596" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="7141,2592 7140,2601 7133,2596" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="6233" y="2813">rdf:type</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Personne">
+            <ellipse cx="5930" cy="2982" rx="169" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Personne">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="5790" y="2985">http://www.semanticweb.org/ontologies/universite#Personne</text>
+        </a>
+        <path d="M5446 3011C5547 3005 5670 2998 5784 2991" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5789,2991 5781,2995 5781,2987" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="5581" y="2991">rdfs:subClassOf</text>
+        <path
+            d="M2603 2054C2627 2051 2650 2050 2673 2048 2828 2040 2868 2043 3024 2038 3944 2013 4176 2042 5095 1984 5122 1983 5150 1980 5242 1971" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5247,1970 5239,1975 5239,1967" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="3883" y="2020">rdf:type</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Cours">
+            <ellipse cx="5297" cy="2774" rx="158" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Cours">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="5166" y="2777">http://www.semanticweb.org/ontologies/universite#Cours</text>
+        </a>
+        <path
+            d="M2561 2081C2598 2090 2631 2106 2655 2130 2675 2152 2657 2170 2673 2195 2899 2551 2998 2663 3393 2812 3429 2826 3277 2817 4849 2817 4959 2817 4987 2829 5095 2817 5138 2813 5185 2803 5235 2791" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5240,2790 5233,2796 5231,2788" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="3883" y="2815">rdf:type</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Amphi_7">
+            <ellipse cx="4618" cy="1947" rx="168" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Amphi_7">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="4478" y="1950">http://www.semanticweb.org/ontologies/universite#Amphi_7</text>
+        </a>
+        <path
+            d="M2494 2048C2536 2027 2607 1994 2673 1980 2751 1964 4029 1947 4109 1946 4217 1945 4338 1945 4451 1947" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="4456,1947 4448,1951 4448,1943" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="3393" y="1949">http://www.semanticweb.org/ontologies/universite#estLocaliseDans</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Math_Info">
+            <ellipse cx="3199" cy="2065" rx="171" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Math_Info">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="3057" y="2068">http://www.semanticweb.org/ontologies/universite#Math_Info</text>
+        </a>
+        <path d="M2652 2065C2765 2065 2903 2065 3029 2065" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="3034,2065 3026,2069 3026,2061" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="2673" y="2062">http://www.semanticweb.org/ontologies/universite#appartientADepartement</text>
+        <rect height="36"
+            style="fill:rgb(255,223,123);stroke:rgb(132,117,66)"
+            width="98" x="3150" y="2101"/>
+        <text style="fill:rgb(132,117,66)" text-anchor="start" x="3158" y="2122">Web Sémantique</text>
+        <path
+            d="M2606 2077C2631 2079 2652 2081 2673 2082 2844 2095 3047 2109 3150 2117" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="3155,2117 3147,2121 3147,2113" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="2699" y="2079">http://www.semanticweb.org/ontologies/universite#intituleCours</text>
+        <rect height="36"
+            style="fill:rgb(255,223,123);stroke:rgb(132,117,66)"
+            width="54" x="3172" y="2155"/>
+        <text style="fill:rgb(132,117,66)" text-anchor="start" x="3193" y="2176">30</text>
+        <path
+            d="M2606 2077C2625 2082 2641 2089 2655 2097 2666 2104 2661 2115 2673 2122 2834 2214 3070 2193 3172 2178" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="3177,2177 3170,2182 3168,2174" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="2701" y="2119">http://www.semanticweb.org/ontologies/universite#dureeCours</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#numEtudiant">
+            <ellipse cx="4618" cy="3208" rx="179" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#numEtudiant">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="4469" y="3211">http://www.semanticweb.org/ontologies/universite#numEtudiant</text>
+        </a>
+        <a xlink:href="http://www.w3.org/2002/07/owl#DatatypeProperty">
+            <ellipse cx="5297" cy="3208" rx="60" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.w3.org/2002/07/owl#DatatypeProperty">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="5247" y="3211">owl:DatatypeProperty</text>
+        </a>
+        <path d="M4796 3208C4905 3208 5037 3208 5238 3208" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5243,3208 5235,3212 5235,3204" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4957" y="3205">rdf:type</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Etudiant">
+            <ellipse cx="5297" cy="2701" rx="166" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Etudiant">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="5159" y="2704">http://www.semanticweb.org/ontologies/universite#Etudiant</text>
+        </a>
+        <path
+            d="M4773 3200C4797 3192 4816 3180 4831 3163 4862 3128 4816 2986 4849 2953 4888 2915 5056 2972 5095 2934 5125 2905 5086 2779 5113 2747 5125 2734 5139 2724 5182 2714" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5187,2713 5180,2719 5178,2711" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4949" y="2931">rdfs:domain</text>
+        <a xlink:href="http://www.w3.org/2001/XMLSchema#string">
+            <ellipse cx="5297" cy="3359" rx="27" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.w3.org/2001/XMLSchema#string">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="5276" y="3362">xsd:string</text>
+        </a>
+        <path
+            d="M4773 3217C4797 3225 4816 3235 4831 3250 4860 3279 4818 3314 4849 3340 4872 3360 5034 3363 5271 3360" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5276,3360 5268,3364 5268,3356" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4952" y="3337">rdfs:range</text>
+        <path
+            d="M5421 2689C5583 2672 5880 2643 6134 2626 6455 2605 6834 2590 7123 2582" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="7128,2582 7120,2586 7120,2578" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="6233" y="2609">rdf:type</text>
+        <path
+            d="M5377 2717C5411 2725 5448 2735 5480 2747 5639 2808 5815 2912 5902 2965" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5906,2968 5897,2967 5902,2960" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="5581" y="2754">rdfs:subClassOf</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#estInscritA">
+            <ellipse cx="4618" cy="2359" rx="171" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#estInscritA">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="4476" y="2362">http://www.semanticweb.org/ontologies/universite#estInscritA</text>
+        </a>
+        <path
+            d="M4754 2349C4782 2344 4807 2339 4831 2332 4840 2330 4841 2326 4849 2324 4903 2313 5046 2300 5095 2324 5107 2330 5102 2341 5113 2347 5122 2352 5132 2357 5168 2363" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5173,2364 5164,2367 5166,2359" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4952" y="2307">rdfs:range</text>
+        <path
+            d="M4785 2363C4806 2369 4819 2376 4831 2386 4853 2405 4827 2431 4849 2449 4892 2484 5056 2431 5095 2469 5121 2494 5092 2600 5113 2628 5133 2655 5164 2671 5214 2686" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5219,2687 5210,2689 5212,2681" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4949" y="2446">rdfs:domain</text>
+        <a xlink:href="http://www.w3.org/2002/07/owl#ObjectProperty">
+            <ellipse cx="5297" cy="2482" rx="54" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.w3.org/2002/07/owl#ObjectProperty">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="5252" y="2485">owl:ObjectProperty</text>
+        </a>
+        <path
+            d="M4782 2355C4915 2351 5072 2353 5095 2372 5124 2396 5086 2430 5113 2455 5123 2464 5135 2471 5244 2480" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5249,2480 5241,2484 5241,2476" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4957" y="2350">rdf:type</text>
+        <path
+            d="M5356 2758C5397 2747 5450 2734 5498 2727 5581 2716 5673 2710 5767 2707" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5772,2707 5764,2711 5764,2703" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="5581" y="2705">rdfs:subClassOf</text>
+        <path
+            d="M5451 2771C5537 2767 5637 2764 5727 2760 6193 2742 6310 2739 6775 2710 6882 2704 6917 2733 7017 2692 7061 2674 7102 2634 7135 2595" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="7138,2591 7136,2600 7130,2595" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="6233" y="2731">rdf:type</text>
+        <path
+            d="M6031 2997C6244 3020 6714 3043 7017 2830 7093 2776 7129 2663 7144 2598" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="7145,2593 7147,2602 7139,2600" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="6562" y="2946">rdf:type</text>
+        <path
+            d="M5968 2965C6009 2946 6074 2917 6134 2898 6233 2868 6293 2928 6363 2851 6411 2799 6333 2745 6381 2692 6391 2682 6402 2673 6450 2664" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="6455,2663 6448,2669 6446,2661" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="6217" y="2848">rdfs:subClassOf</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Departement">
+            <ellipse cx="5297" cy="2428" rx="179" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Departement">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="5148" y="2431">http://www.semanticweb.org/ontologies/universite#Departement</text>
+        </a>
+        <path
+            d="M5442 2439C5811 2463 6715 2526 7017 2560 7030 2562 7043 2564 7123 2577" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="7128,2578 7119,2580 7121,2573" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="6233" y="2484">rdf:type</text>
+        <path
+            d="M5447 2438C5462 2442 5472 2448 5480 2455 5501 2474 5476 2499 5498 2517 5508 2526 5642 2535 5772 2543" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5777,2543 5769,2547 5769,2539" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="5581" y="2514">rdfs:subClassOf</text>
+        <path d="M6101 2556C6357 2561 6807 2572 7123 2580" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="7128,2580 7120,2584 7120,2576" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="6562" y="2559">rdf:type</text>
+        <path
+            d="M5962 2569C6001 2591 6070 2625 6134 2639 6222 2659 6322 2663 6418 2661" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="6423,2661 6415,2665 6415,2657" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="6217" y="2636">rdfs:subClassOf</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#appartientADepartement">
+            <ellipse cx="4618" cy="2413" rx="212" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#appartientADepartement">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="4442" y="2416">http://www.semanticweb.org/ontologies/universite#appartientADepartement</text>
+        </a>
+        <path
+            d="M4829 2414C4947 2415 5071 2420 5095 2432 5107 2438 5102 2449 5113 2455 5126 2463 5140 2468 5244 2479" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5249,2480 5241,2483 5241,2475" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4957" y="2411">rdf:type</text>
+        <path
+            d="M4681 2431C4732 2447 4795 2476 4831 2524 4856 2557 4822 2584 4849 2614 4926 2698 5011 2608 5095 2684 5111 2698 5097 2714 5113 2728 5129 2742 5147 2751 5190 2761" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5195,2762 5186,2764 5188,2756" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4949" y="2611">rdfs:domain</text>
+        <path
+            d="M4768 2401C4797 2399 4824 2397 4849 2396 4959 2392 4987 2382 5095 2396 5104 2397 5105 2400 5113 2401 5132 2405 5152 2409 5187 2414" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5192,2415 5183,2418 5185,2410" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4952" y="2386">rdfs:range</text>
+        <path
+            d="M4785 1947C4881 1947 4994 1948 5095 1951 5116 1952 5138 1953 5239 1961" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5244,1961 5236,1965 5236,1957" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4957" y="1943">rdf:type</text>
+        <path
+            d="M4685 1964C4782 1988 4954 2035 5095 2092 5153 2116 5216 2150 5265 2179" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5269,2182 5260,2181 5264,2174" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4957" y="2006">rdf:type</text>
+        <rect height="36"
+            style="fill:rgb(255,223,123);stroke:rgb(132,117,66)"
+            width="54" x="5270" y="1572"/>
+        <text style="fill:rgb(132,117,66)" text-anchor="start" x="5277" y="1593">Amphi 7</text>
+        <path
+            d="M4725 1934C4764 1924 4803 1908 4831 1882 4846 1869 4836 1855 4849 1840 4968 1708 5175 1630 5270 1599" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5275,1597 5268,1604 5266,1596" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4849" y="1670">http://www.semanticweb.org/ontologies/universite#nom</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite">
+            <ellipse cx="1735" cy="1577" rx="139" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="1620" y="1580">http://www.semanticweb.org/ontologies/universite</text>
+        </a>
+        <a xlink:href="http://www.w3.org/2002/07/owl#Ontology">
+            <ellipse cx="2460" cy="1577" rx="37" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.w3.org/2002/07/owl#Ontology">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="2429" y="1580">owl:Ontology</text>
+        </a>
+        <path d="M1873 1577C2009 1577 2198 1577 2424 1577" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="2429,1577 2421,1581 2421,1573" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="2080" y="1574">rdf:type</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#estLocaliseDans">
+            <ellipse cx="4618" cy="2305" rx="188" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#estLocaliseDans">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="4462" y="2308">http://www.semanticweb.org/ontologies/universite#estLocaliseDans</text>
+        </a>
+        <path
+            d="M4680 2289C4728 2276 4792 2260 4849 2249 4951 2231 5068 2217 5175 2208" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5180,2208 5172,2212 5172,2204" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4952" y="2212">rdfs:range</text>
+        <path
+            d="M4758 2293C4889 2282 5071 2272 5095 2294 5122 2318 5088 2429 5113 2455 5123 2465 5134 2472 5244 2481" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5249,2481 5241,2485 5241,2477" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4957" y="2278">rdf:type</text>
+        <path
+            d="M4798 2310C4812 2316 4823 2323 4831 2332 4869 2372 4811 2540 4849 2579 4888 2618 5056 2563 5095 2601 5137 2641 5075 2686 5113 2728 5126 2742 5141 2752 5183 2762" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5188,2763 5179,2765 5181,2757" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4949" y="2576">rdfs:domain</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Faculte">
+            <ellipse cx="5297" cy="2320" rx="164" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Faculte">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="5161" y="2323">http://www.semanticweb.org/ontologies/universite#Faculte</text>
+        </a>
+        <path
+            d="M5423 2332C5688 2354 6280 2409 6775 2473 6883 2487 6914 2474 7017 2508 7051 2520 7087 2540 7130 2569" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="7134,2572 7125,2571 7130,2564" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="6233" y="2396">rdf:type</text>
+        <path
+            d="M5440 2329C5457 2334 5469 2340 5480 2347 5494 2357 5484 2371 5498 2382 5580 2448 5629 2405 5727 2443 5787 2467 5851 2503 5902 2534" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5906,2537 5897,2536 5901,2529" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="5581" y="2379">rdfs:subClassOf</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#enseigneUnCours">
+            <ellipse cx="4618" cy="2877" rx="191" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#enseigneUnCours">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="4459" y="2880">http://www.semanticweb.org/ontologies/universite#enseigneUnCours</text>
+        </a>
+        <path
+            d="M4730 2892C4769 2901 4804 2916 4831 2940 4847 2954 4833 2971 4849 2983 4891 3013 5008 3022 5130 3023" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5135,3023 5127,3027 5127,3019" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4949" y="2980">rdfs:domain</text>
+        <path
+            d="M4646 2860C4689 2833 4772 2785 4849 2759 4955 2724 5020 2799 5095 2718 5123 2688 5087 2566 5113 2534 5128 2516 5149 2504 5247 2488" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5252,2487 5245,2492 5243,2485" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4957" y="2715">rdf:type</text>
+        <path
+            d="M4808 2877C4920 2875 5043 2870 5095 2858 5152 2845 5213 2818 5265 2792" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5269,2790 5264,2797 5261,2790" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4952" y="2855">rdfs:range</text>
+        <path
+            d="M3348 2057C3366 2055 3379 2055 3393 2054 4149 2023 4345 2110 5095 2012 5140 2006 5190 1995 5255 1977" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5260,1976 5253,1982 5251,1974" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4232" y="2052">rdf:type</text>
+        <path
+            d="M3337 2076C3355 2080 3365 2085 3375 2092 3390 2103 3377 2119 3393 2130 3507 2212 3567 2153 3707 2166 3745 2170 5067 2238 5095 2264 5140 2306 5070 2358 5113 2401 5118 2406 5123 2410 5163 2417" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5168,2418 5159,2421 5161,2413" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4232" y="2186">rdf:type</text>
+        <rect height="36"
+            style="fill:rgb(255,223,123);stroke:rgb(132,117,66)"
+            width="262" x="3768" y="2067"/>
+        <text style="fill:rgb(132,117,66)" text-anchor="start" x="3790" y="2088">Département de Mathématiques et Informat ...</text>
+        <path d="M3363 2070C3495 2074 3665 2079 3767 2082" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="3772,2082 3764,2086 3764,2078" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="3418" y="2068">http://www.semanticweb.org/ontologies/universite#nom</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#FST_Nouakchott">
+            <ellipse cx="3899" cy="2139" rx="190" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#FST_Nouakchott">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="3741" y="2142">http://www.semanticweb.org/ontologies/universite#FST_Nouakchott</text>
+        </a>
+        <path
+            d="M3299 2080C3326 2084 3351 2088 3375 2092 3383 2094 3384 2095 3393 2096 3501 2112 3623 2123 3736 2130" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="3741,2130 3733,2134 3733,2126" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="3402" y="2093">http://www.semanticweb.org/ontologies/universite#faitPartieDe</text>
+        <path
+            d="M4063 2131C4074 2125 4083 2120 4091 2112 4122 2083 4081 2050 4109 2018 4200 1914 4272 1962 4404 1920 4452 1905 4506 1889 4561 1872" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="4566,1871 4559,1877 4557,1869" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4109" y="1924">http://www.semanticweb.org/ontologies/universite#faitPartieDe</text>
+        <path
+            d="M4008 2125C4043 2120 4077 2116 4109 2113 4327 2092 4881 2095 5095 2045 5151 2032 5211 2006 5267 1979" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5272,1977 5266,1984 5263,1977" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4602" y="2075">rdf:type</text>
+        <path
+            d="M4052 2150C4373 2170 5046 2215 5095 2227 5154 2243 5216 2274 5266 2303" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5270,2305 5261,2305 5265,2298" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4602" y="2170">rdf:type</text>
+        <rect height="36"
+            style="fill:rgb(255,223,123);stroke:rgb(132,117,66)"
+            width="208" x="4514" y="2108"/>
+        <text style="fill:rgb(132,117,66)" text-anchor="start" x="4532" y="2129">Faculté des Sciences et Techniques</text>
+        <path d="M4086 2137C4228 2133 4413 2130 4513 2129" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="4518,2129 4510,2133 4510,2125" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4124" y="2127">http://www.semanticweb.org/ontologies/universite#nom</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Saleck_BAYA">
+            <ellipse cx="1735" cy="1777" rx="182" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Saleck_BAYA">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="1584" y="1780">http://www.semanticweb.org/ontologies/universite#Saleck_BAYA</text>
+        </a>
+        <path
+            d="M1881 1788C2100 1801 2498 1823 2838 1823 2838 1823 2838 1823 3900 1823 4088 1823 4305 1835 4462 1845" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="4467,1845 4459,1849 4459,1841" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="3063" y="1820">http://www.semanticweb.org/ontologies/universite#estInscritA</text>
+        <path
+            d="M1761 1760C1800 1734 1875 1689 1945 1668 2165 1604 2230 1623 2459 1623 2459 1623 2459 1623 4619 1623 4899 1623 5181 1859 5278 1948" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5282,1951 5273,1949 5278,1943" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="3525" y="1620">rdf:type</text>
+        <path
+            d="M1781 1795C1824 1810 1888 1831 1945 1842 2011 1855 2186 1838 2247 1865 2334 1904 2407 1992 2448 2048" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="2451,2052 2443,2048 2449,2043" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="1957" y="1839">http://www.semanticweb.org/ontologies/universite#suitUnCours</text>
+        <path
+            d="M1775 1795C1885 1843 2176 1977 2247 2053 2260 2067 2250 2081 2265 2092 2336 2143 2588 2074 2655 2130 2678 2150 2651 2175 2673 2195 3010 2508 3240 2291 3689 2392 4009 2465 4083 2508 4404 2578 4601 2622 4650 2632 4849 2659 4947 2673 5057 2683 5159 2692" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5164,2692 5156,2696 5156,2688" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="3525" y="2359">rdf:type</text>
+        <rect height="36"
+            style="fill:rgb(255,223,123);stroke:rgb(132,117,66)"
+            width="54" x="2433" y="1651"/>
+        <text style="fill:rgb(132,117,66)" text-anchor="start" x="2446" y="1672">BAYA</text>
+        <path
+            d="M1794 1760C1834 1748 1893 1732 1945 1722 2121 1690 2336 1676 2433 1671" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="2438,1671 2430,1675 2430,1667" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="1973" y="1681">http://www.semanticweb.org/ontologies/universite#nom</text>
+        <rect height="36"
+            style="fill:rgb(255,223,123);stroke:rgb(132,117,66)"
+            width="54" x="2433" y="1705"/>
+        <text style="fill:rgb(132,117,66)" text-anchor="start" x="2444" y="1726">Saleck</text>
+        <path
+            d="M1879 1766C1900 1764 1923 1762 1945 1760 2123 1747 2336 1732 2433 1726" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="2438,1726 2430,1730 2430,1722" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="1966" y="1736">http://www.semanticweb.org/ontologies/universite#prenom</text>
+        <rect height="36"
+            style="fill:rgb(255,223,123);stroke:rgb(132,117,66)"
+            width="54" x="2433" y="1759"/>
+        <text style="fill:rgb(132,117,66)" text-anchor="start" x="2442" y="1780">C25362</text>
+        <path d="M1916 1777C2088 1777 2329 1777 2433 1777" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="2438,1777 2430,1781 2430,1773" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="1956" y="1774">http://www.semanticweb.org/ontologies/universite#numEtudiant</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#suitUnCours">
+            <ellipse cx="4618" cy="2701" rx="175" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#suitUnCours">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="4472" y="2704">http://www.semanticweb.org/ontologies/universite#suitUnCours</text>
+        </a>
+        <path d="M4792 2701C4896 2701 5017 2701 5132 2701" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5137,2701 5129,2705 5129,2697" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4949" y="2698">rdfs:domain</text>
+        <path
+            d="M4654 2684C4698 2661 4773 2621 4831 2578 4840 2572 4840 2567 4849 2562 4949 2514 4986 2541 5095 2521 5132 2514 5173 2507 5252 2492" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5257,2491 5250,2497 5248,2489" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4957" y="2518">rdf:type</text>
+        <path
+            d="M4661 2719C4709 2737 4783 2762 4849 2772 4947 2787 5058 2788 5161 2783" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5166,2783 5158,2787 5158,2779" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4952" y="2769">rdfs:range</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#nom">
+            <ellipse cx="4618" cy="3277" rx="155" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#nom">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="4489" y="3280">http://www.semanticweb.org/ontologies/universite#nom</text>
+        </a>
+        <path d="M4735 3266C4860 3253 5047 3234 5241 3215" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5246,3214 5238,3219 5238,3211" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4957" y="3227">rdf:type</text>
+        <path
+            d="M4649 3295C4693 3319 4774 3361 4849 3376 4970 3401 5113 3388 5271 3364" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5276,3363 5269,3368 5267,3361" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4952" y="3373">rdfs:range</text>
+        <path
+            d="M4769 3281C4986 3285 5352 3285 5480 3248 5654 3197 5830 3064 5909 3000" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5913,2997 5909,3005 5904,2999" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="5274" y="3245">rdfs:domain</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#intituleCours">
+            <ellipse cx="4618" cy="3136" rx="178" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#intituleCours">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="4470" y="3139">http://www.semanticweb.org/ontologies/universite#intituleCours</text>
+        </a>
+        <path
+            d="M4795 3136C4889 3138 4998 3144 5095 3158 5141 3165 5191 3177 5254 3196" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5259,3197 5250,3199 5252,3191" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4957" y="3135">rdf:type</text>
+        <path
+            d="M4699 3153C4748 3160 4801 3169 4849 3175 4877 3178 5075 3176 5095 3194 5130 3226 5082 3263 5113 3299 5132 3321 5159 3335 5271 3356" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5276,3357 5267,3359 5269,3352" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4952" y="3172">rdfs:range</text>
+        <path
+            d="M4696 3120C4739 3110 4797 3097 4849 3086 4958 3064 5017 3119 5095 3040 5128 3007 5091 2978 5113 2938 5147 2877 5213 2826 5267 2792" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5271,2789 5267,2797 5262,2790" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4949" y="3037">rdfs:domain</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#faitPartieDe">
+            <ellipse cx="4618" cy="2551" rx="176" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#faitPartieDe">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="4472" y="2554">http://www.semanticweb.org/ontologies/universite#faitPartieDe</text>
+        </a>
+        <path
+            d="M4686 2535C4734 2524 4795 2511 4849 2504 4947 2492 5058 2486 5244 2483" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5249,2483 5241,2487 5241,2479" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4957" y="2483">rdf:type</text>
+        <path d="M4793 2551C5043 2551 5484 2551 5753 2551" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5758,2551 5750,2555 5750,2547" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="5274" y="2548">rdfs:domain</text>
+        <path
+            d="M4683 2568C4731 2579 4793 2593 4849 2598 5198 2633 5612 2592 5828 2566" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5833,2565 5826,2570 5825,2562" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="5276" y="2597">rdfs:range</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#prenom">
+            <ellipse cx="4618" cy="3413" rx="164" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#prenom">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="4482" y="3416">http://www.semanticweb.org/ontologies/universite#prenom</text>
+        </a>
+        <path
+            d="M4660 3396C4707 3377 4783 3347 4849 3327 4957 3295 4990 3310 5095 3270 5104 3267 5105 3264 5113 3260 5146 3247 5182 3236 5250 3220" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5255,3219 5248,3225 5246,3217" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4957" y="3267">rdf:type</text>
+        <path
+            d="M4757 3423C4859 3426 4985 3426 5095 3412 5143 3406 5195 3392 5274 3368" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5279,3366 5272,3373 5270,3365" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4952" y="3409">rdfs:range</text>
+        <path
+            d="M4704 3429C4869 3453 5211 3487 5480 3399 5603 3359 5631 3332 5727 3245 5809 3172 5881 3062 5919 2999" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5922,2995 5921,3004 5914,2999" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="5274" y="3396">rdfs:domain</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Moussa_EREBIH">
+            <ellipse cx="1735" cy="2157" rx="190" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#Moussa_EREBIH">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="1577" y="2160">http://www.semanticweb.org/ontologies/universite#Moussa_EREBIH</text>
+        </a>
+        <path
+            d="M1745 2140C1769 2092 1841 1964 1945 1915 2056 1863 3806 1856 4429 1855" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="4434,1855 4426,1859 4426,1851" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="3063" y="1858">http://www.semanticweb.org/ontologies/universite#estInscritA</text>
+        <path
+            d="M1764 2140C1804 2115 1877 2074 1945 2053 2257 1958 2348 1986 2673 1959 3440 1897 3634 1927 4404 1920 4711 1918 4790 1899 5095 1930 5132 1934 5173 1941 5246 1955" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5251,1956 5242,1958 5244,1951" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="3525" y="1916">rdf:type</text>
+        <path
+            d="M1789 2140C1830 2126 1891 2109 1945 2099 2047 2082 2161 2073 2272 2069" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="2277,2069 2269,2073 2269,2065" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="1957" y="2067">http://www.semanticweb.org/ontologies/universite#suitUnCours</text>
+        <path
+            d="M1744 2174C1797 2279 2075 2790 2459 2790 2459 2790 2459 2790 3542 2790 3585 2790 5059 2814 5095 2790 5113 2779 5098 2761 5113 2747 5129 2734 5147 2725 5191 2715" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5196,2714 5189,2720 5187,2712" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="3525" y="2787">rdf:type</text>
+        <rect height="36"
+            style="fill:rgb(255,223,123);stroke:rgb(132,117,66)"
+            width="54" x="2433" y="2247"/>
+        <text style="fill:rgb(132,117,66)" text-anchor="start" x="2441" y="2268">EREBIH</text>
+        <path
+            d="M1790 2175C1835 2187 1893 2203 1945 2212 2121 2244 2336 2259 2433 2264" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="2438,2264 2430,2268 2430,2260" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="1973" y="2209">http://www.semanticweb.org/ontologies/universite#nom</text>
+        <rect height="36"
+            style="fill:rgb(255,223,123);stroke:rgb(132,117,66)"
+            width="54" x="2433" y="2139"/>
+        <text style="fill:rgb(132,117,66)" text-anchor="start" x="2443" y="2160">Moussa</text>
+        <path d="M1924 2157C2097 2157 2331 2157 2433 2157" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="2438,2157 2430,2161 2430,2153" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="1966" y="2154">http://www.semanticweb.org/ontologies/universite#prenom</text>
+        <rect height="36"
+            style="fill:rgb(255,223,123);stroke:rgb(132,117,66)"
+            width="54" x="2433" y="2193"/>
+        <text style="fill:rgb(132,117,66)" text-anchor="start" x="2442" y="2214">C21397</text>
+        <path
+            d="M1878 2169C1903 2171 1925 2173 1945 2174 2123 2188 2336 2203 2433 2210" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="2438,2210 2430,2214 2430,2206" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="1956" y="2171">http://www.semanticweb.org/ontologies/universite#numEtudiant</text>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#dureeCours">
+            <ellipse cx="4618" cy="2967" rx="174" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.semanticweb.org/ontologies/universite#dureeCours">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="4473" y="2970">http://www.semanticweb.org/ontologies/universite#dureeCours</text>
+        </a>
+        <path
+            d="M4641 2985C4682 3015 4767 3073 4849 3099 4954 3132 4989 3095 5095 3122 5152 3137 5213 3165 5267 3193" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5271,3195 5263,3195 5266,3188" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4957" y="3096">rdf:type</text>
+        <path
+            d="M4686 2951C4733 2940 4795 2926 4849 2917 4958 2900 4991 2926 5095 2892 5160 2871 5226 2827 5274 2792" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5278,2789 5274,2797 5269,2791" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4949" y="2889">rdfs:domain</text>
+        <a xlink:href="http://www.w3.org/2001/XMLSchema#int">
+            <ellipse cx="5297" cy="2965" rx="27" ry="18" style="fill:rgb(115,191,115);stroke:rgb(66,105,66)"/>
+        </a>
+        <a xlink:href="http://www.w3.org/2001/XMLSchema#int">
+            <text style="fill:rgb(66,105,66)" text-anchor="start"
+                x="5282" y="2968">xsd:int</text>
+        </a>
+        <path
+            d="M4791 2967C4887 2967 4997 2966 5095 2966 5117 2966 5141 2966 5271 2966" style="fill:none;stroke:rgb(90,89,206)"/>
+        <polygon points="5276,2966 5268,2970 5268,2962" style="fill:rgb(90,89,206);stroke:none"/>
+        <text style="fill:rgb(90,89,206)" text-anchor="start" x="4952" y="2963">rdfs:range</text>
+    </g>
+</svg>
+<!-- Generated by ZVTM (Zoomable Visual Transformation Machine) v0.9.1 http://zvtm.sourceforge.net-->
