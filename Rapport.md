@@ -1,6 +1,6 @@
 # Rapport de Projet : Ontologie du Monde Universitaire
 
-**Étudiant** : Saleck BAYA (Matricule : C25362)
+**Étudiant** : Saleck BAYA (Matricule : C25362) et Moussa EREBIH (Matricule : C21397)
 **Projet** : Projet 1 - Monde Universitaire
 **Cours** : Web Sémantique
 
